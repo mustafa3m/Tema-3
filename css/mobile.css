@@ -17,7 +17,7 @@
 
 .item-nav a {
   font-size: 16px;
-  color: white;
+  color: var(--white);
 }
 
 .liste-nav.active {

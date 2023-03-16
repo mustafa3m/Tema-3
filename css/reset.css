@@ -1,17 +1,41 @@
 /*  Reset CSS */
 
+:root{
+
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-html {
+
+
+
+/* variables */
+
+:root {
+  --primary: #eee;
+  --dark: #333;
+  --secondary: #626262;
+  --white : white;
+  --gray: #ddd;
+  --smoke : #f1f1f1;
+  --gray-hint: #555;
+  --yellow: #f1c40f;
+}
+
+/* general */
+
+:root {
   font-size: 62.5%;
 }
+
+
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #eee;
-  color: #333;
+  background-color: var(--primary);
+  color: var(--dark);
 }
 
 p {
@@ -29,7 +53,7 @@ h6 {
 
 a {
   text-decoration: none;
-  color: #333;
+  color: var(--dark);
 }
 
 li {
